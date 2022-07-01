@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- main.css and normalize.css work to provide cross-browser consistency of styling and structure. -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- navbar.css and styles.css are responsible for the cohesive style across our platform. -->
+    <!--<link rel="stylesheet" href="./css/navbar.css">-->
+    <link rel="stylesheet" href="./css/default.css">
+
+    <title>Login</title>
+
+</head>
+<body>
+
+<div class="login-page">
+
+    <form action="https://idp.login.iu.edu/idp/profile/cas/login?service=https://cgi.luddy.indiana.edu/~team02/php/validate.php"
+          method="post" class="login-form">
+
+        <div class="login-header">
+            <h2>Welcome To</h2>
+            <h1>NextDorm</h1>
+        </div>
+
+        <input type="submit" class="login-submit" value="Login">
+
+        <p class="login-footer">
+           Login to NextDorm is for Indiana University - Bloomington <br>
+           students based in Bloomington, Indiana only.
+        </p>
+
+    </form>
+
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
